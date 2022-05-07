@@ -1,0 +1,9 @@
+version: 2
+
+sources: 
+  - name: fivetran_Db
+    database: fivetran_Db
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: COUNTRY_COVID_VACCINATIONS_JUAN_ORELLANA
+      - name: COUNTRY_VACCINATIONS_BY_MANUFACTURER_JUAN_ORELLANA
